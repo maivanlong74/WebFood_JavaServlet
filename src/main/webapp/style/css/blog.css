@@ -1,0 +1,58 @@
+@charset "utf-8";
+.head-two {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#search-box {
+    background: #ecf0f1;
+    border-radius: 30px;
+}
+
+#search-box #search-text {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+#search-box:hover #search-text,
+#search-box #search-text:valid {
+    width: 300px;
+    padding: 10px 0px 10px 15px;
+}
+
+#search-box #search-btn {
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+
+.video_top {
+    width: 100%;
+    display: block;
+    margin-top: 13px;
+}
+
+.noidung .bantin{
+    background: beige;
+    padding: 50px;
+}
+
+.bantin .one{
+    text-decoration: none;
+}
+
+.bantin .one p{
+    color: black;
+    
+}
